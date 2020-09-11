@@ -50,3 +50,9 @@ form {
     color: black;
     line-height: 30px;
 }
+
+@media print {
+    body{
+    padding: 30px 30px;
+    }
+}
