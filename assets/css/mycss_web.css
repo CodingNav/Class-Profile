@@ -1,0 +1,52 @@
+a:link {
+ text-decoration: none;
+ color: black;
+ font-family: Verdana, Geneva, Tahoma, sans-serif;
+ font-size: 15px;
+}
+
+a:visited {
+    color: black;
+}
+
+a:hover {
+    color: #009d99;
+}
+
+.heading {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #305581;
+}
+
+.content {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #5e5e5e;
+}
+
+#link {
+    font-family: Verdana, Geneva, Tahoma, sans-serif; 
+}
+
+h3 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif; 
+    color: #424242;
+}
+
+span {
+    color: #5e5e5e;
+    font-size: 18px;
+}
+
+.main-content {
+    background-color: #c0c0c0;
+    margin-top: 40px;
+    margin-bottom: 50px;
+    padding: 30px;
+    border: 1px solid black;
+}
+
+form {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: black;
+    line-height: 30px;
+}

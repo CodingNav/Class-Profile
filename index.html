@@ -4,6 +4,13 @@
     <title>Profile</title>
     <link rel="stylesheet" type="text/css" href="./assets/css/mycss_web.css">
     <link rel="stylesheet" type="text/css" href="./assets/css/mycss_tablet.css">
+    <style>
+        #basic {
+            font-size: 50px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            color: #009d99; 
+        }
+    </style>
 </head>
 <html>
 
@@ -21,25 +28,25 @@
     </nav>
 
     <div>
-        <h1 id="basic">Basic Profile Information</h1>
-        <h2>Navleen Kaur</h2>
-        <h3>Major:<span>Information Technology</span></h3>
+        <h1 id="basic">Profile</h1>
+        <h2 class="heading">Navleen Kaur</h2>
+        <h3>Major:<span> Information Technology</span></h3>
         <img id="profile-pic" height=200px src="assets/images/avatar.jpg" />
     </div>
 
     <hr>
 
     <div>
-        <h1 id="education">Education Summary</h1>
-        <p>Got a High School Diploma from Bronx High School of Science. <br> Currently completely Bachelor of Science at
-            St.John's University.</p>
+        <h1 class="heading" id="education">Education Summary</h1>
+        <p class="content">Got a High School Diploma from Bronx High School of Science. <br> Currently completely Bachelor of Science at
+            St. John's University.</p>
     </div>
 
     <hr>
 
     <div>
-        <h1 id="work">Work Experience</h1>
-        <ul>
+        <h1 class="heading" id="work">Work Experience</h1>
+        <ul class="content">
             <li>Girls Who Code</li>
             <li>Douglas Elliman</li>
             <li>Barnes and Nobles</li>
@@ -49,8 +56,8 @@
     <hr>
 
     <div>
-        <h1 id="skills">Programming Skills</h1>
-        <table>
+        <h1 class="heading" id="skills">Programming Skills</h1>
+        <table class="content">
             <tr>
                 <th>Skill</th>
                 <th>Level</th>
@@ -77,8 +84,8 @@
     <hr>
 
     <div>
-        <h1 id="interests">General Interests</h1>
-        <ul>
+        <h1 class="heading" id="interests">General Interests</h1>
+        <ul class="content">
             <li>Graphic Design</li>
             <li>Reading</li>
             <li>Doing any type of art</li>
@@ -88,34 +95,34 @@
     <hr>
 
     <div>
-        <h1 id="favorites">Favorites</h1>
+        <h1 class="heading" id="favorites">Favorites</h1>
         <h3>Song</h3>
-        <p>Do I Wanna Know? by Arctic Monkeys</p>
+        <p class="content">Do I Wanna Know? by Arctic Monkeys</p>
         <iframe width="560" height="315" src="https://www.youtube.com/embed/bpOSxM0rNPM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         <h3>Film</h3>
-        <p>Harry Potter and the Sorcerer's Stone</p>
+        <p class="content">Harry Potter and the Sorcerer's Stone</p>
         <iframe width="560" height="315" src="https://www.youtube.com/embed/VyHV0BRtdxo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         <h3>TV Show</h3>
-        <p>The Office</p>
+        <p class="content">The Office</p>
         <iframe width="560" height="315" src="https://www.youtube.com/embed/jz1omRneAGg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </div>
 
     <hr>
 
     <div>
-        <h1 id="websites">Favorite Websites</h1>
+        <h1 class="heading" id="websites">Favorite Websites</h1>
         <ul>
-            <img width=15% src="https://www.lifelinesoftware.com/images/YouTubeLink.jpg">
+            <img style="width:15%;" src="https://www.lifelinesoftware.com/images/YouTubeLink.jpg">
             <li>
-                <a href="http://youtube.com/" target="_blank">Youtube</a>
-                <ul>
+                <a id="link" href="http://youtube.com/" target="_blank">Youtube</a>
+                <ul class="content">
                     <li>YouTube is an American online video-sharing platform.</li>
                 </ul>
             </li>
-            <img width=8% src="https://d1yjjnpx0p53s8.cloudfront.net/styles/logo-thumbnail/s3/0000/5239/brand.gif?itok=K6l2JzBp">
+            <img style="width:8%;" src="https://d1yjjnpx0p53s8.cloudfront.net/styles/logo-thumbnail/s3/0000/5239/brand.gif?itok=K6l2JzBp">
             <li>
-                <a href="https://www2.hm.com/en_us/index.html" target="_blank">H&M</a>
-                <ul>
+                <a id="link" href="https://www2.hm.com/en_us/index.html" target="_blank">H&M</a>
+                <ul class="content">
                     <li>Swedish multinational clothing-retail company known for its fast-fashion clothing for men,
                         women,
                         teenagers and children.</li>
@@ -127,12 +134,12 @@
     <hr>
 
     <div>
-        <h1 id="projects">My Projects</h1>
+        <h1 class="heading" id="projects">My Projects</h1>
         <ul>
             <li>
-                <a href="https://codingnav.github.io/Class-Profile/" target="_blank">Profile</a>
+                <a id="link" href="https://codingnav.github.io/Class-Profile/" target="_blank">Profile</a>
                 <ul>
-                    <li>My profile with basic information about my education, work, skills, and interests.</li>
+                    <li class="content">My profile with basic information about my education, work, skills, and interests.</li>
                 </ul>
             </li>
         </ul>
@@ -141,7 +148,7 @@
     <hr>
 
     <div class="wrapper main-content">
-        <h1 id="main-heading">Contact</h1>
+        <h1 class="heading" id="contact">Contact</h1>
 
         <form>
             <label for="enter-name">Name</label><br>
@@ -151,7 +158,7 @@
             <input type="text" id="enter-email" name="email" placeholder="example@gmail.com"><br>
 
             <label for="enter-message">Message</label><br>
-            <textarea name="message" rows="10" cols="30"></textarea>
+            <textarea name="message" rows="10" cols="30"></textarea> <br>
             <button type="submit">Submit</button>
           </form>
           
