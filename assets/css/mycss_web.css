@@ -1,13 +1,27 @@
-a:link {
- text-decoration: none;
- color: black;
- font-family: Verdana, Geneva, Tahoma, sans-serif;
- font-size: 15px;
+body {
+margin: 50px 50px;
+background-color: white;
 }
 
-a:visited {
-    color: black;
+nav {
+    border: 2px solid #305581;
+    background-color: #c0c0c0;
+    width: 230px;
+    height: 310px;
+    padding-left: 30px;
+    padding-top: 10px;
+    
+
+  }
+
+nav a {
+    color: #305581;
+    text-decoration: none;
+    font-size: 16px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+line-height: 25px;
 }
+
 
 a:hover {
     color: #009d99;
@@ -16,6 +30,7 @@ a:hover {
 .heading {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: #305581;
+    text-align: center;
 }
 
 .content {
@@ -24,11 +39,11 @@ a:hover {
 }
 
 #link {
-    font-family: Verdana, Geneva, Tahoma, sans-serif; 
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 h3 {
-    font-family: Verdana, Geneva, Tahoma, sans-serif; 
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: #424242;
 }
 
@@ -51,8 +66,17 @@ form {
     line-height: 30px;
 }
 
+/* Changing format of button */
+form button {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    font-size: 18px;
+    color: #ffffff;
+    background-color: #4aaaa5;
+    padding: 10px 30px;
+}
+
 @media print {
-    body{
-    padding: 30px 30px;
+    body {
+        padding: 30px 30px;
     }
 }
